@@ -1,2 +1,1 @@
-# hkrally
-Contains NetLogo Models for Hong Kong Rallies
+This repository contains NetLogo Models for various Hong Kong Rallies
