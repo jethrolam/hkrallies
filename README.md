@@ -1,1 +1,1 @@
-This repository contains NetLogo Models for various Hong Kong Rallies
+This repository contains NetLogo models for various rallies in Hong Kong.
