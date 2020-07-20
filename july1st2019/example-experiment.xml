@@ -1,0 +1,72 @@
+<experiments>
+  <experiment name="experiment" repetitions="1" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <metric>ticks</metric>
+    <metric>count-finished</metric>
+    <metric>count-die</metric>
+    <metric>count-leave</metric>
+    <metric>count-late</metric>
+    <metric>percent-done</metric>
+    <metric>ticks-first-finished</metric>
+    <metric>ticks-last-finished</metric>
+    <metric>count-protesters</metric>
+    <metric>avgCapacity</metric>
+    <metric>avgSpeed</metric>
+    <metric>avgPatience</metric>
+    <enumeratedValueSet variable="entry-rate">
+      <value value="1000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="leave-rate">
+      <value value="80"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="total-protesters">
+      <value value="300000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="raster-size">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Lockhart-YeeWor-StartTime-min">
+      <value value="90"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Lockhart-YeeWor-Duration-min">
+      <value value="60"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="seconds-per-tick">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="time-late-CWB">
+      <value value="20"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="time-late-Other">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="max-capacity">
+      <value value="5.4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Simulation-time-min">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="time-late-WC">
+      <value value="122"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Early-departure?">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="VP-Protesters">
+      <value value="1355"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="max-speed">
+      <value value="1.4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Other-entrance?">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="Tributaries-open?">
+      <value value="true"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="VP-EndTime-min">
+      <value value="600"/>
+    </enumeratedValueSet>
+  </experiment>
+</experiments>
