@@ -1222,9 +1222,9 @@ SLIDER
 entry-rate
 entry-rate
 0
-3000
-600.0
-200
+4000
+2000.0
+100
 1
 ppl/min
 HORIZONTAL
@@ -1313,7 +1313,7 @@ INPUTBOX
 197
 259
 Simulation-time-min
-600.0
+480.0
 1
 0
 Number
